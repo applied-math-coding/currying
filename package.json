@@ -1,0 +1,25 @@
+{
+  "name": "currying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node ./dist/index.js",
+    "build": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applied-math-coding/currying.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/applied-math-coding/currying/issues"
+  },
+  "homepage": "https://github.com/applied-math-coding/currying#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
